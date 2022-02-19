@@ -1,0 +1,13 @@
+﻿USE bmd_hst2020
+GO
+SET ANSI_NULLS, QUOTED_IDENTIFIER ON
+GO
+
+/* object : SP_Ref_Aset0_108  first created : 15/11/2018 10:00:00 by [hs - 0816 81 1821] */
+CREATE PROCEDURE [dbo].[SP_Ref_Aset0_108]
+WITH ENCRYPTION
+AS
+	SELECT Kd_Aset, Kd_Aset0, Nm_Aset0
+	FROM Ref_Rek0_108
+	WHERE Kd_Aset0 <> 1
+GO

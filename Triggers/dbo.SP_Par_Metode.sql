@@ -1,0 +1,20 @@
+﻿USE bmd_hst2020
+GO
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+CREATE PROCEDURE [dbo].[SP_Par_Metode]
+WITH ENCRYPTION
+AS
+	SELECT 1 AS Kd_Peny, 'Garis Lurus' AS Nm_Peny
+	UNION ALL
+	SELECT 2 AS Kd_Peny, 'Saldo Menurun Ganda'
+
+
+
+
+
+GO

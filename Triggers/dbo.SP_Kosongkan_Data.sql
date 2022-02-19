@@ -1,0 +1,40 @@
+﻿USE bmd_hst2020
+GO
+SET ANSI_NULLS, QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[SP_Kosongkan_Data]
+WITH ENCRYPTION
+AS
+	DELETE Ta_KA
+	DELETE Ta_KA2
+	DELETE Ta_KIB_A
+	DELETE Ta_KIB_B
+	DELETE Ta_KIB_C
+	DELETE Ta_KIB_D
+	DELETE Ta_KIB_E
+	DELETE Ta_KIB_F
+	DELETE Ta_Pemda
+	DELETE Ta_Pemeliharaan_Rinc
+	DELETE Ta_Pemeliharaan
+	DELETE Ta_Pengadaan_Rinc
+	DELETE Ta_Pengadaan
+	DELETE Ta_Pengadaan_SP2D_Rinc
+	DELETE Ta_Pengadaan_SP2D
+	DELETE Ta_Penghapusan_Rinc
+	DELETE Ta_Penghapusan
+	DELETE Ta_RKBU
+	DELETE Ta_RKPBU
+	DELETE Ta_Ruang
+	DELETE Ta_UPB
+	DELETE Ta_Sub_Unit
+	DELETE Ta_User_Satker
+	DELETE Ta_UserID
+
+
+
+
+
+GO
